@@ -29,7 +29,7 @@ public class LogicControllerSpecs {
         int numberOfGroups = 0;
         int numberOfGroups1 = 2;
         int numberOfGroups2 = 3;
-        int numberOfGroupsDefault = -1;
+        int numberOfGroupsDefault = 5;
 
 
         String expected = "";
@@ -108,6 +108,47 @@ public class LogicControllerSpecs {
 
         assertEquals("Should have converted to textDollars",expected,actual);
         assertEquals("Should have converted to textDollars",expected1,actual1);
+
+    }
+
+    @Test
+    public void blockLengthThreeConverterTest(){
+
+        String input = "123";
+        String input1 = "417";
+        String input2 = "100";
+
+        String expected = "OneHundredTwentyThree";
+        String expected1 = "FourHundredSeventeen";
+        String expected2 = "OneHundred";
+
+
+        String actual = logicController.blockLengthThreeConverter(input);
+        String actual1 = logicController.blockLengthThreeConverter(input1);
+        String actual2 = logicController.blockLengthThreeConverter(input2);
+
+
+        assertEquals("Should convert to text",expected,actual);
+        assertEquals("Should convert to text",expected1,actual1);
+        assertEquals("Should convert to text",expected2,actual2);
+
+
+    }
+
+    @Test
+    public void blockLengthTwoConverterTest(){
+
+        String input = "12";
+        String input1 = "41";
+
+        String expected = "Twelve";
+        String expected1 = "FortyOne";
+
+        String actual = logicController.blockLengthTwoConverter(input);
+        String actual1 = logicController.blockLengthTwoConverter(input1);
+
+        assertEquals("Should convert to text",expected,actual);
+        assertEquals("Should convert to text",expected1,actual1);
 
     }
 

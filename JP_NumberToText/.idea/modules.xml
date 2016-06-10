@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JP_NumberToText.iml" filepath="$PROJECT_DIR$/JP_NumberToText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JPMorgan-HireVue.iml" filepath="$PROJECT_DIR$/JPMorgan-HireVue.iml" />
     </modules>
   </component>
 </project>

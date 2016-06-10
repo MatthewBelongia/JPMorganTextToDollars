@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="JP_NumberToText" />
+        <module name="JPMorgan-HireVue" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="JP_NumberToText" target="1.5" />
+      <module name="JPMorgan-HireVue" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

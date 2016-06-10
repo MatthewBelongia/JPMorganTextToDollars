@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c93bafd0-39d3-44b8-bf73-65bebc411c1f" name="Default" comment="" />
-    <ignored path="JP_NumberToText.iws" />
+    <list default="true" id="a7c0ea42-e116-4e88-9ae5-577dd14f3486" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/LogicController.java" afterPath="$PROJECT_DIR$/src/main/java/LogicController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/LogicControllerSpecs.java" afterPath="$PROJECT_DIR$/src/test/java/LogicControllerSpecs.java" />
+    </list>
+    <ignored path="JPMorgan-HireVue.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,37 +22,44 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/JP_NumberToText$All_in_JP_NumberToText.coverage" NAME="All in JP_NumberToText Coverage Results" MODIFIED="1465525686948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/JP_NumberToText$InputHandlerSpecs.coverage" NAME="InputHandlerSpecs Coverage Results" MODIFIED="1465525512432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JPMorgan-HireVue$All_in_JPMorgan_HireVue.coverage" NAME="All in JPMorgan-HireVue Coverage Results" MODIFIED="1465565889148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="JP_NumberToText" />
+    <favorites_list name="JPMorgan-HireVue" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="InputHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/InputHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="-165">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputHandlerSpecs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/InputHandlerSpecs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogicController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LogicController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LogicController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
+            <state relative-caret-position="1320">
+              <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -55,13 +68,9 @@
       <file leaf-file-name="LogicControllerSpecs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LogicControllerSpecs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="99" column="71" selection-start-line="99" selection-start-column="71" selection-end-line="99" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1080">
+              <caret line="131" column="65" selection-start-line="131" selection-start-column="65" selection-end-line="131" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,12 +87,8 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -93,12 +98,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InputHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LogicController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/InputHandlerSpecs.java" />
         <option value="$PROJECT_DIR$/src/test/java/LogicControllerSpecs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LogicController.java" />
       </list>
     </option>
   </component>
@@ -126,7 +127,7 @@
     <option name="width" value="1208" />
     <option name="height" value="672" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -151,19 +152,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JP_NumberToText" />
+              <option name="myItemId" value="JPMorgan-HireVue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JP_NumberToText" />
+              <option name="myItemId" value="JPMorgan-HireVue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -173,7 +173,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JP_NumberToText" />
+              <option name="myItemId" value="JPMorgan-HireVue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -195,7 +195,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JP_NumberToText" />
+              <option name="myItemId" value="JPMorgan-HireVue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -213,7 +213,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JP_NumberToText" />
+              <option name="myItemId" value="JPMorgan-HireVue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -235,6 +235,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -248,16 +249,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="JUnit.All in JP_NumberToText">
-    <configuration default="false" name="LogicControllerSpecs.isBetweenTenAndNineteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in JPMorgan-HireVue">
+    <configuration default="false" name="All in JPMorgan-HireVue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JP_NumberToText" />
+      <module name="JPMorgan-HireVue" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LogicControllerSpecs" />
-      <option name="METHOD_NAME" value="isBetweenTenAndNineteenTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -270,55 +271,28 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="LogicControllerSpecs.convertTenToNineteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JP_NumberToText" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JPMorgan-HireVue" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LogicControllerSpecs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JPMorgan-HireVue" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LogicControllerSpecs" />
-      <option name="METHOD_NAME" value="convertTenToNineteenTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="LogicControllerSpecs.convertStringToTextDollarsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JP_NumberToText" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LogicControllerSpecs" />
-      <option name="METHOD_NAME" value="convertStringToTextDollarsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="InputHandlerSpecs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JP_NumberToText" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InputHandlerSpecs" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -333,15 +307,15 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="All in JP_NumberToText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="LogicControllerSpecs.blockLengthThreeConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JP_NumberToText" />
+      <module name="JPMorgan-HireVue" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="LogicControllerSpecs" />
+      <option name="METHOD_NAME" value="blockLengthThreeConverter" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -646,7 +620,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JP_NumberToText" />
+      <module name="JPMorgan-HireVue" />
       <envs />
       <method />
     </configuration>
@@ -809,20 +783,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LogicControllerSpecs.isBetweenTenAndNineteenTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LogicControllerSpecs.convertTenToNineteenTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LogicControllerSpecs.convertStringToTextDollarsTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.InputHandlerSpecs" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in JP_NumberToText" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in JPMorgan-HireVue" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LogicControllerSpecs" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LogicControllerSpecs.blockLengthThreeConverter" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in JP_NumberToText" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LogicControllerSpecs.convertStringToTextDollarsTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.InputHandlerSpecs" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LogicControllerSpecs.convertTenToNineteenTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LogicControllerSpecs.isBetweenTenAndNineteenTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in JPMorgan-HireVue" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LogicControllerSpecs.blockLengthThreeConverter" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LogicControllerSpecs" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -836,49 +808,43 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c93bafd0-39d3-44b8-bf73-65bebc411c1f" name="Default" comment="" />
-      <created>1465518593785</created>
+      <changelist id="a7c0ea42-e116-4e88-9ae5-577dd14f3486" name="Default" comment="" />
+      <created>1465563221271</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1465518593785</updated>
-      <workItem from="1465518595399" duration="7145000" />
+      <updated>1465563221271</updated>
+      <workItem from="1465563222523" duration="3840000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_JP_NumberToText - 2016.06.09 at 22h 25m 20s.xml">
-      <configuration name="All in JP_NumberToText" configurationId="JUnit" />
+    <history-entry file="All_in_JPMorgan-HireVue - 2016.06.10 at 09h 17m 39s.xml">
+      <configuration name="All in JPMorgan-HireVue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_JP_NumberToText - 2016.06.09 at 22h 25m 28s.xml">
-      <configuration name="All in JP_NumberToText" configurationId="JUnit" />
+    <history-entry file="All_in_JPMorgan-HireVue - 2016.06.10 at 09h 18m 15s.xml">
+      <configuration name="All in JPMorgan-HireVue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_JP_NumberToText - 2016.06.09 at 22h 25m 51s.xml">
-      <configuration name="All in JP_NumberToText" configurationId="JUnit" />
+    <history-entry file="All_in_JPMorgan-HireVue - 2016.06.10 at 09h 18m 48s.xml">
+      <configuration name="All in JPMorgan-HireVue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_JP_NumberToText - 2016.06.09 at 22h 28m 08s.xml">
-      <configuration name="All in JP_NumberToText" configurationId="JUnit" />
+    <history-entry file="All_in_JPMorgan-HireVue - 2016.06.10 at 09h 19m 42s.xml">
+      <configuration name="All in JPMorgan-HireVue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InputHandlerSpecs - 2016.06.09 at 22h 25m 13s.xml">
-      <configuration name="InputHandlerSpecs" configurationId="JUnit" />
+    <history-entry file="All_in_JPMorgan-HireVue - 2016.06.10 at 09h 38m 11s.xml">
+      <configuration name="All in JPMorgan-HireVue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogicControllerSpecs_convertStringToTextDollarsTest - 2016.06.09 at 22h 24m 29s.xml">
-      <configuration name="LogicControllerSpecs.convertStringToTextDollarsTest" configurationId="JUnit" />
+    <history-entry file="LogicControllerSpecs - 2016.06.10 at 09h 30m 23s.xml">
+      <configuration name="LogicControllerSpecs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogicControllerSpecs_convertStringToTextDollarsTest - 2016.06.09 at 22h 25m 08s.xml">
-      <configuration name="LogicControllerSpecs.convertStringToTextDollarsTest" configurationId="JUnit" />
+    <history-entry file="LogicControllerSpecs - 2016.06.10 at 09h 32m 18s.xml">
+      <configuration name="LogicControllerSpecs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogicControllerSpecs_convertStringToTextDollarsTest - 2016.06.09 at 22h 28m 00s.xml">
-      <configuration name="LogicControllerSpecs.convertStringToTextDollarsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LogicControllerSpecs_convertTenToNineteenTest - 2016.06.09 at 22h 22m 13s.xml">
-      <configuration name="LogicControllerSpecs.convertTenToNineteenTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LogicControllerSpecs_convertTenToNineteenTest - 2016.06.09 at 22h 22m 32s.xml">
-      <configuration name="LogicControllerSpecs.convertTenToNineteenTest" configurationId="JUnit" />
+    <history-entry file="LogicControllerSpecs_blockLengthThreeConverter - 2016.06.10 at 09h 35m 15s.xml">
+      <configuration name="LogicControllerSpecs.blockLengthThreeConverter" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7145000" />
+    <option name="totallyTimeSpent" value="3840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="50" width="1208" height="672" extended-state="0" />
@@ -916,9 +882,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -934,55 +898,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/LogicControllerSpecs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="1080">
+          <caret line="131" column="65" selection-start-line="131" selection-start-column="65" selection-end-line="131" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InputHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LogicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InputHandlerSpecs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
+        <state relative-caret-position="120">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InputHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LogicControllerSpecs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="71" selection-start-line="99" selection-start-column="71" selection-end-line="99" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LogicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>

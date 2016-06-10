@@ -7,9 +7,7 @@ public class LogicController {
     String[] teens = {"Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
     String[] tens = {"", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
     String result = "";
-    String hundred = "Hundred";
-    String thousand = "Thousand";
-    String million = "Million";
+    String[] suffixs = {"","","Thousand","Million","Billion","Hundred"};
     int numberOfGroups = 0;
 
     public int countNumberOfGroups(String[] input) {
@@ -21,16 +19,10 @@ public class LogicController {
     }
 
     public String placeSuffix(int numberOfGroups) {
-        switch (numberOfGroups) {
-            case 0:
-            case 1:
-                return "";
-            case 2:
-                return thousand;
-            case 3:
-                return million;
-            default:
-                return hundred;
+        try {
+            return suffixs[numberOfGroups];
+        }catch (IndexOutOfBoundsException e){
+            return null;
         }
     }
 
@@ -62,6 +54,31 @@ public class LogicController {
         return result;
     }
 
+    public String blockLengthThreeConverter(String input){
+        String response = "";
+        response += ones[Character.getNumericValue(input.charAt(0))];
+        response += placeSuffix(5);
+        if (isBetweenTenAndNineteen(input.substring(1))) {
+            response += convertTenToNineteen(input.substring(1));
+        } else {
+            response += tens[Character.getNumericValue(input.charAt(1))] +
+                    ones[Character.getNumericValue(input.charAt(2))];
+        }
+        return response;
+
+    }
+
+    public String blockLengthTwoConverter(String input){
+        String response = "";
+        if (isBetweenTenAndNineteen(input)) {
+            response += convertTenToNineteen(input);
+        } else {
+            response += tens[Character.getNumericValue(input.charAt(0))] +
+                    ones[Character.getNumericValue(input.charAt(1))];
+        }
+        return response;
+    }
+
     public String convertStringToTextDollars(String[] input) {
         String convertedResult = "";
         numberOfGroups = countNumberOfGroups(input);
@@ -69,24 +86,12 @@ public class LogicController {
         for (String numBlock : input) {
 
             if (numBlock.length() == 3) {
-                convertedResult += ones[Character.getNumericValue(numBlock.charAt(0))];
-                convertedResult += placeSuffix(-1);
-                if (isBetweenTenAndNineteen(numBlock.substring(1))) {
-                    convertedResult += convertTenToNineteen(numBlock.substring(1));
-                } else {
-                    convertedResult += tens[Character.getNumericValue(numBlock.charAt(1))] +
-                            ones[Character.getNumericValue(numBlock.charAt(2))];
-                }
+                convertedResult += blockLengthThreeConverter(numBlock);
                 convertedResult += placeSuffix(numberOfGroups);
                 numberOfGroups--;
             }
             else if(numBlock.length() ==2){
-                if (isBetweenTenAndNineteen(numBlock)) {
-                    convertedResult += convertTenToNineteen(numBlock);
-                } else {
-                    convertedResult += tens[Character.getNumericValue(numBlock.charAt(0))] +
-                            ones[Character.getNumericValue(numBlock.charAt(1))];
-                }
+                convertedResult+= blockLengthTwoConverter(numBlock);
                 convertedResult+= placeSuffix(numberOfGroups);
                 numberOfGroups--;
             }
