@@ -152,5 +152,20 @@ public class LogicControllerSpecs {
 
     }
 
+    @Test
+    public void allZerosTest(){
+
+        String input = "000";
+        String input1 = "123";
+
+        Boolean actual = logicController.isAllZeros(input);
+        Boolean actual1 = logicController.isAllZeros(input1);
+
+        assertTrue("Is all zeros",actual);
+        assertFalse("Is not all zeros",actual1);
+
+
+    }
+
 
 }
